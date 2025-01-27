@@ -139,6 +139,6 @@ class SentenceComparisonBot:
         self.updater.idle()
 
 if __name__ == "__main__":
-    BOT_TOKEN = "8070264045:AAFNapizIuIqvPmBWFhcn_nefFBCRRETcEg"  # BotFather'dan aldığınız token
+    BOT_TOKEN = "YOUR_TOKEN"  # BotFather'dan aldığınız token
     bot = SentenceComparisonBot(BOT_TOKEN)
     bot.run()
